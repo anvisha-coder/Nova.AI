@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaMind AI - Intelligent Automation for Unprecedented Growth</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .fade-in {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .pulse-soft {
+            animation: pulseSoft 2s infinite;
+        }
+        @keyframes pulseSoft {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 selection:bg-indigo-100">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3 group cursor-pointer">
+                <div class="w-10 h-10 gradient-bg rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-blue-200 shadow-lg group-hover:rotate-6 transition-transform">N</div>
+                <span class="text-2xl font-extrabold tracking-tight text-slate-800">NovaMind <span class="text-blue-600">AI</span></span>
+            </div>
+            <nav class="hidden lg:flex space-x-10 text-sm font-semibold text-slate-600">
+                <a href="#services" class="hover:text-blue-600 transition-colors">Services</a>
+                <a href="#demo" class="hover:text-blue-600 transition-colors">Live Demo</a>
+                <a href="#dashboard" class="hover:text-blue-600 transition-colors">Revenue Insights</a>
+                <a href="mailto:anvisha693@gmail.com" class="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
+                    <i class="fas fa-headset mr-2"></i> Primary Contact
+                </a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <a href="#demo" class="hidden sm:block text-slate-600 hover:text-slate-900 font-bold transition-colors">Log In</a>
+                <a href="signup.html" class="gradient-bg text-white px-7 py-2.5 rounded-full font-bold hover:shadow-blue-300 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">Start Growing</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden pt-24 pb-32 px-6">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full -z-10 opacity-30 pointer-events-none">
+            <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-200 rounded-full blur-[120px]"></div>
+            <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-cyan-200 rounded-full blur-[120px]"></div>
+        </div>
+        <div class="container mx-auto text-center max-w-5xl">
+            <div class="inline-flex items-center px-4 py-1.5 mb-8 rounded-full bg-indigo-50 border border-indigo-100 text-indigo-700 text-xs font-bold uppercase tracking-wider fade-in">
+                <span class="flex h-2 w-2 rounded-full bg-indigo-600 mr-2 pulse-soft"></span>
+                Next-Gen AI Automation is Here
+            </div>
+            <h1 class="text-6xl md:text-7xl font-black mb-8 leading-[1.1] tracking-tight text-slate-900 fade-in">
+                Turn Support into your <span class="gradient-text">Primary Revenue Engine</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-12 text-slate-600 max-w-3xl mx-auto leading-relaxed fade-in" style="animation-delay: 0.1s">
+                NovaMind AI automates 80% of support while identifying high-value leads and upsells in real-time. Don't just answer tickets—drive massive ROI.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-5 fade-in" style="animation-delay: 0.2s">
+                <a href="#demo" class="w-full sm:w-auto gradient-bg text-white px-10 py-5 rounded-2xl font-extrabold text-lg hover:shadow-2xl hover:shadow-blue-300 hover:-translate-y-1 transition-all duration-300">
+                    Try the Intelligence Demo
+                </a>
+                <a href="signup.html" class="w-full sm:w-auto bg-white border border-slate-200 text-slate-700 px-10 py-5 rounded-2xl font-extrabold text-lg hover:bg-slate-50 transition-all duration-300 shadow-sm">
+                    Start My Free Trial
+                </a>
+            </div>
+            <div class="mt-20 flex flex-wrap justify-center items-center gap-12 opacity-50 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-500 fade-in" style="animation-delay: 0.3s">
+                <span class="text-xl font-bold flex items-center"><i class="fab fa-amazon mr-2"></i> AMAZON</span>
+                <span class="text-xl font-bold flex items-center"><i class="fab fa-stripe mr-2"></i> stripe</span>
+                <span class="text-xl font-bold flex items-center"><i class="fab fa-shopify mr-2"></i> Shopify</span>
+                <span class="text-xl font-bold flex items-center"><i class="fab fa-slack mr-2"></i> Slack</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-32 bg-white relative">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-20">
+                <h2 class="text-4xl md:text-5xl font-black mb-6 text-slate-900">Intelligence for Every Workflow</h2>
+                <p class="text-lg text-slate-600">Our suite of AI modules work in perfect harmony to maximize your business efficiency and revenue output.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 lg:gap-12">
+                <div class="group p-10 bg-slate-50 rounded-[40px] border border-transparent hover:border-indigo-100 hover:bg-white hover:shadow-2xl hover:shadow-blue-100 transition-all duration-500">
+                    <div class="w-16 h-16 gradient-bg text-white rounded-2xl flex items-center justify-center mb-8 shadow-lg group-hover:scale-110 transition-transform">
+                        <i class="fas fa-headset text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-slate-800">Autonomous Support</h3>
+                    <p class="text-slate-600 leading-relaxed mb-6">AI handles routine inquiries with human-like precision, achieving 80%+ deflection while maintaining CSAT scores.</p>
+                    <a href="#" class="text-blue-600 font-bold flex items-center group-hover:translate-x-2 transition-transform">
+                        Learn more <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                    </a>
+                </div>
+                <div class="group p-10 bg-slate-50 rounded-[40px] border border-transparent hover:border-indigo-100 hover:bg-white hover:shadow-2xl hover:shadow-blue-100 transition-all duration-500">
+                    <div class="w-16 h-16 bg-indigo-600 text-white rounded-2xl flex items-center justify-center mb-8 shadow-lg group-hover:scale-110 transition-transform">
+                        <i class="fas fa-rocket text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-slate-800">Lead Acceleration</h3>
+                    <p class="text-slate-600 leading-relaxed mb-6">Every incoming text is analyzed for intent. High-value prospects are scored and routed to Sales in milliseconds.</p>
+                    <a href="#" class="text-blue-600 font-bold flex items-center group-hover:translate-x-2 transition-transform">
+                        Learn more <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                    </a>
+                </div>
+                <div class="group p-10 bg-slate-50 rounded-[40px] border border-transparent hover:border-blue-100 hover:bg-white hover:shadow-2xl hover:shadow-blue-100 transition-all duration-500">
+                    <div class="w-16 h-16 bg-blue-600 text-white rounded-2xl flex items-center justify-center mb-8 shadow-lg group-hover:scale-110 transition-transform">
+                        <i class="fas fa-chart-pie text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-slate-800">Revenue Tracking</h3>
+                    <p class="text-slate-600 leading-relaxed mb-6">Real-time visibility into cumulative lead scores and upsell velocity, direct from your automation engine.</p>
+                    <a href="#" class="text-blue-600 font-bold flex items-center group-hover:translate-x-2 transition-transform">
+                        Learn more <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Demo -->
+    <section id="demo" class="py-32 bg-slate-50 relative overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2">
+                    <h2 class="text-4xl md:text-5xl font-black mb-8 leading-tight">Experience Real <br><span class="text-blue-600">Business Intelligence</span></h2>
+                    <p class="text-lg text-slate-600 mb-10 leading-relaxed">
+                        Input any sample customer inquiry. Watch how our NovaMind AI Core processes it, calculates revenue potential, and handles the routing automatically.
+                    </p>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center">
+                                <i class="fas fa-check text-[10px]"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800">Production LLM Integration</h4>
+                                <p class="text-sm text-slate-600">Real-time processing with Google Gemini/GPT-4 models.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center">
+                                <i class="fas fa-check text-[10px]"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800">Revenue Tracking</h4>
+                                <p class="text-sm text-slate-600">All demonstration data is live-tracked for account analytics.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 w-full">
+                    <div class="bg-white rounded-[40px] shadow-2xl p-2 sm:p-4 border border-slate-200">
+                        <div class="bg-slate-900 rounded-[32px] overflow-hidden shadow-inner">
+                            <div class="flex items-center justify-between px-6 py-4 bg-slate-800/50 border-b border-slate-700">
+                                <div class="flex space-x-1.5">
+                                    <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                                    <div class="w-3 h-3 rounded-full bg-amber-400"></div>
+                                    <div class="w-3 h-3 rounded-full bg-green-400"></div>
+                                </div>
+                                <div class="text-xs font-mono text-slate-400">nova-core-v1.2.api</div>
+                                <div class="w-4"></div>
+                            </div>
+                            <div class="p-8">
+                                <div class="mb-6">
+                                    <label for="inquiry" class="block text-sm font-bold text-slate-400 mb-3 uppercase tracking-widest">Inquiry Input</label>
+                                    <textarea id="inquiry" rows="4" class="w-full bg-slate-800 border-slate-700 text-white rounded-2xl border p-5 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition placeholder-slate-500" placeholder="Type something like: 'I want to upgrade my subscription to Enterprise for 100 seats...'"></textarea>
+                                </div>
+                                <button id="submit-btn" class="w-full gradient-bg text-white py-5 rounded-2xl font-black text-lg hover:shadow-blue-500/30 hover:shadow-2xl transition-all duration-300 flex items-center justify-center space-x-3 group">
+                                    <span id="btn-text">Analyze Inquiry</span>
+                                    <i class="fas fa-chevron-right group-hover:translate-x-1 transition-transform"></i>
+                                </button>
+
+                                <div id="result-area" class="mt-10 hidden border-t border-slate-800 pt-8 opacity-0 transition-opacity duration-1000">
+                                    <div class="flex items-center justify-between mb-6">
+                                        <h3 class="font-black text-white text-xl uppercase tracking-tighter">AI Core Analysis</h3>
+                                        <span class="bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest border border-blue-500/20">Real-time</span>
+                                    </div>
+                                    <div class="grid grid-cols-2 gap-4">
+                                        <div class="bg-slate-800/40 p-5 rounded-2xl border border-slate-700/50">
+                                            <span class="text-[10px] text-slate-500 uppercase font-bold tracking-widest block mb-1">Intent Category</span>
+                                            <p id="res-category" class="font-black text-white text-lg">-</p>
+                                        </div>
+                                        <div class="bg-slate-800/40 p-5 rounded-2xl border border-slate-700/50">
+                                            <span class="text-[10px] text-slate-500 uppercase font-bold tracking-widest block mb-1">Lead Score</span>
+                                            <p id="res-score" class="font-black text-blue-400 text-lg">-</p>
+                                        </div>
+                                        <div class="bg-slate-800/40 p-5 rounded-2xl border border-slate-700/50">
+                                            <span class="text-[10px] text-slate-500 uppercase font-bold tracking-widest block mb-1">Upsell Flag</span>
+                                            <p id="res-upsell" class="font-black text-white text-lg">-</p>
+                                        </div>
+                                        <div class="bg-slate-800/40 p-5 rounded-2xl border border-slate-700/50">
+                                            <span class="text-[10px] text-slate-500 uppercase font-bold tracking-widest block mb-1">Confidence</span>
+                                            <p id="res-confidence" class="font-black text-white text-lg">-</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-6 p-4 bg-blue-900/20 rounded-xl border border-blue-500/20">
+                                        <p class="text-xs text-blue-300/80 leading-relaxed italic">
+                                            <i class="fas fa-info-circle mr-1"></i> System Note: Inquiry is being live-tracked for account <strong>NOVA-PROD-01</strong>. 
+                                            Contact <span class="text-blue-400">anvisha693@gmail.com</span> for details.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Preview -->
+    <section id="dashboard" class="py-32 bg-white relative">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center gap-20">
+                <div class="lg:w-5/12">
+                    <div class="inline-flex items-center px-4 py-1.5 mb-6 rounded-full bg-blue-50 border border-blue-100 text-blue-700 text-xs font-bold uppercase tracking-wider">
+                        Real-time Analytics
+                    </div>
+                    <h2 class="text-4xl md:text-5xl font-black mb-8 leading-tight text-slate-900">Visualize Your <span class="text-blue-600">Scaling</span></h2>
+                    <p class="text-lg text-slate-600 mb-10 leading-relaxed">
+                        Stop guessing your ROI. Our dashboard connects directly to the AI Core, showing you the exact dollar value of every inquiry processed.
+                    </p>
+                    <ul class="space-y-6">
+                        <li class="flex items-center space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-blue-600 shadow-sm">
+                                <i class="fas fa-chart-line text-xl"></i>
+                            </div>
+                            <span class="text-slate-700 font-semibold italic text-lg">Predictive Revenue Potential</span>
+                        </li>
+                        <li class="flex items-center space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-blue-600 shadow-sm">
+                                <i class="fas fa-users-viewfinder text-xl"></i>
+                            </div>
+                            <span class="text-slate-700 font-semibold italic text-lg">Sales Velocity Distribution</span>
+                        </li>
+                        <li class="flex items-center space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-blue-600 shadow-sm">
+                                <i class="fas fa-bolt-lightning text-xl"></i>
+                            </div>
+                            <span class="text-slate-700 font-semibold italic text-lg">Instant Upsell Detection</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:w-7/12 w-full">
+                    <div class="bg-slate-900 rounded-[40px] p-10 shadow-[0_40px_100px_-20px_rgba(0,0,0,0.5)] text-white relative">
+                        <div class="absolute top-0 right-0 p-8">
+                             <div class="flex items-center space-x-2">
+                                <span class="flex h-2 w-2 rounded-full bg-green-500 animate-ping"></span>
+                                <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">System Live</span>
+                             </div>
+                        </div>
+                        <div class="flex justify-between items-center mb-12 border-b border-slate-800 pb-8">
+                            <div>
+                                <h3 class="font-black text-2xl tracking-tighter">REVENUE PERFORMANCE</h3>
+                                <p class="text-xs text-slate-400 font-bold uppercase tracking-widest mt-1 opacity-60">Global Instance Overview</p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-8 mb-16">
+                            <div class="space-y-1">
+                                <span class="text-slate-500 text-[10px] font-bold uppercase tracking-widest">Thruput</span>
+                                <div id="db-thruput" class="text-4xl font-black tracking-tighter">0</div>
+                            </div>
+                            <div class="space-y-1">
+                                <span class="text-slate-500 text-[10px] font-bold uppercase tracking-widest">Efficiency</span>
+                                <div id="db-efficiency" class="text-4xl font-black tracking-tighter text-blue-400">0%</div>
+                            </div>
+                            <div class="space-y-1">
+                                <span class="text-slate-500 text-[10px] font-bold uppercase tracking-widest">Revenue Potential</span>
+                                <div id="db-potential" class="text-4xl font-black tracking-tighter text-green-400">$0</div>
+                            </div>
+                            <div class="space-y-1">
+                                <span class="text-slate-500 text-[10px] font-bold uppercase tracking-widest">Upsell Vol.</span>
+                                <div id="db-upsell" class="text-4xl font-black tracking-tighter text-blue-400">0</div>
+                            </div>
+                        </div>
+                        <div class="space-y-4">
+                            <h4 class="text-xs font-black text-slate-500 uppercase tracking-[0.2em] mb-6">High Value Alerts</h4>
+                            <div id="db-leads" class="grid gap-3">
+                                <!-- Leads injected here -->
+                                <div class="bg-slate-800/40 p-4 rounded-2xl flex justify-between items-center animate-pulse border border-slate-700/50">
+                                    <div class="w-1/2 h-4 bg-slate-700/50 rounded-full"></div>
+                                    <div class="w-1/4 h-4 bg-slate-700/50 rounded-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-12 text-center">
+                             <p class="text-[10px] text-slate-500 font-bold uppercase tracking-[0.3em]">Full Enterprise Dashboard Access: anvisha693@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Modal (Hidden by default) -->
+    <div id="success-modal" class="fixed inset-0 z-[60] flex items-center justify-center hidden">
+        <div class="absolute inset-0 bg-slate-900/80 backdrop-blur-sm" id="modal-overlay"></div>
+        <div class="bg-white rounded-[40px] p-12 max-w-lg w-full relative shadow-2xl scale-95 opacity-0 transition-all duration-500">
+            <div class="w-20 h-20 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-8">
+                <i class="fas fa-check text-4xl"></i>
+            </div>
+            <h3 class="text-3xl font-black text-center mb-4">Inquiry Processed!</h3>
+            <p class="text-slate-600 text-center leading-relaxed mb-8">
+                Your lead has been successfully captured and analyzed. A representative will contact you shortly at your registered email, or you can reach us immediately at <span class="text-blue-600 font-bold">anvisha693@gmail.com</span>.
+            </p>
+            <button id="close-modal" class="w-full gradient-bg text-white py-4 rounded-2xl font-black text-lg shadow-xl shadow-blue-200 transition hover:-translate-y-1">Got it</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-24 px-6 border-t border-slate-800">
+        <div class="container mx-auto">
+            <div class="grid md:grid-cols-4 gap-12 mb-20">
+                <div class="col-span-2">
+                    <div class="flex items-center space-x-3 mb-8">
+                        <div class="w-10 h-10 gradient-bg rounded-xl flex items-center justify-center text-white font-bold text-xl">N</div>
+                        <span class="text-2xl font-black tracking-tight">NovaMind <span class="text-blue-400">AI</span></span>
+                    </div>
+                    <p class="text-slate-400 text-lg max-w-md leading-relaxed">
+                        Empowering high-growth companies with intelligent automation that scales operations and drives massive revenue.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-black text-sm uppercase tracking-[0.2em] mb-8 text-slate-500">Navigation</h4>
+                    <ul class="space-y-4 text-slate-400 font-semibold">
+                        <li><a href="#services" class="hover:text-white transition">Core Services</a></li>
+                        <li><a href="#demo" class="hover:text-white transition">Live Analysis</a></li>
+                        <li><a href="#dashboard" class="hover:text-white transition">Revenue Insights</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-black text-sm uppercase tracking-[0.2em] mb-8 text-slate-500">Contact Us</h4>
+                    <ul class="space-y-4 text-slate-400 font-semibold">
+                        <li class="flex items-center"><i class="fas fa-envelope mr-3 text-blue-400"></i> <a href="mailto:anvisha693@gmail.com" class="hover:text-white transition">anvisha693@gmail.com</a></li>
+                        <li class="flex items-center"><i class="fas fa-location-dot mr-3 text-blue-400"></i> Silicon Valley, CA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center border-t border-slate-800 pt-12">
+                <p class="text-slate-500 text-sm font-bold uppercase tracking-widest mb-6 md:mb-0">
+                    &copy; 2026 NovaMind AI. The future of Revenue Automation.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="#" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-indigo-600 hover:text-white transition-all duration-300"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-indigo-600 hover:text-white transition-all duration-300"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-indigo-600 hover:text-white transition-all duration-300"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
