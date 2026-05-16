@@ -1,0 +1,134 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaMind AI - Intelligent Automation for Growth</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); }
+        .gradient-text {
+            background: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .fade-in { animation: fadeIn 0.8s ease-out forwards; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .pulse-soft { animation: pulseSoft 2s infinite; }
+        @keyframes pulseSoft {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 selection:bg-blue-100">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 gradient-bg rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-blue-200 shadow-lg">N</div>
+                <span class="text-2xl font-extrabold tracking-tight text-slate-800">NovaMind <span class="text-blue-600">AI</span></span>
+            </div>
+            <nav class="hidden lg:flex space-x-10 text-sm font-semibold text-slate-600">
+                <a href="#services" class="hover:text-blue-600 transition-colors">Services</a>
+                <a href="#demo" class="hover:text-blue-600 transition-colors">Live Demo</a>
+                <a href="mailto:anvisha693@gmail.com" class="text-blue-600 hover:text-blue-700 transition-colors">Contact</a>
+            </nav>
+            <button onclick="toggleSignup()" class="gradient-bg text-white px-7 py-2.5 rounded-full font-bold hover:shadow-xl hover:-translate-y-0.5 transition-all">Start Growing</button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden pt-24 pb-32 px-6">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full -z-10 opacity-30">
+            <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-200 rounded-full blur-[120px]"></div>
+            <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-cyan-200 rounded-full blur-[120px]"></div>
+        </div>
+        <div class="container mx-auto text-center max-w-5xl">
+            <h1 class="text-6xl md:text-7xl font-black mb-8 leading-tight">Turn Support into a <span class="gradient-text">Revenue Engine</span></h1>
+            <p class="text-xl md:text-2xl mb-12 text-slate-600 max-w-3xl mx-auto">NovaMind AI automates 80% of support while identifying high-value leads in real-time. Drive massive ROI automatically.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-5">
+                <button onclick="toggleSignup()" class="gradient-bg text-white px-10 py-5 rounded-2xl font-extrabold text-lg shadow-xl">Get Started Free</button>
+                <a href="#demo" class="bg-white border border-slate-200 px-10 py-5 rounded-2xl font-extrabold text-lg">Watch Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-32 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-black mb-16">Intelligence for Every Workflow</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="p-10 bg-slate-50 rounded-[40px] hover:shadow-2xl transition-all">
+                    <div class="w-16 h-16 bg-blue-600 text-white rounded-2xl flex items-center justify-center mb-8 mx-auto"><i class="fas fa-headset text-2xl"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">Autonomous Support</h3>
+                    <p class="text-slate-600">AI handles routine tickets with human-like precision.</p>
+                </div>
+                <div class="p-10 bg-slate-50 rounded-[40px] hover:shadow-2xl transition-all">
+                    <div class="w-16 h-16 bg-blue-700 text-white rounded-2xl flex items-center justify-center mb-8 mx-auto"><i class="fas fa-rocket text-2xl"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">Lead Acceleration</h3>
+                    <p class="text-slate-600">High-value prospects are instantly scored and routed.</p>
+                </div>
+                <div class="p-10 bg-slate-50 rounded-[40px] hover:shadow-2xl transition-all">
+                    <div class="w-16 h-16 bg-cyan-600 text-white rounded-2xl flex items-center justify-center mb-8 mx-auto"><i class="fas fa-chart-line text-2xl"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">Revenue Tracking</h3>
+                    <p class="text-slate-600">Real-time visibility into your scaling potential.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-20 text-center">
+        <div class="container mx-auto px-6">
+            <p class="text-slate-400 mb-4">Questions? Contact <a href="mailto:anvisha693@gmail.com" class="text-blue-400">anvisha693@gmail.com</a></p>
+            <p class="text-slate-500 text-sm">&copy; 2026 NovaMind AI. Built for scalable growth.</p>
+        </div>
+    </footer>
+
+    <!-- Signup Modal -->
+    <div id="signup-modal" class="fixed inset-0 z-[100] flex items-center justify-center hidden">
+        <div class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm" onclick="toggleSignup()"></div>
+        <div class="bg-white rounded-[40px] p-12 max-w-lg w-full relative shadow-2xl">
+            <h2 class="text-3xl font-black mb-6 text-center">Start Your Free Trial</h2>
+            <form class="space-y-4" onsubmit="handleSignup(event)">
+                <input type="text" placeholder="Full Name" required class="w-full p-4 bg-slate-50 border rounded-2xl outline-none focus:ring-2 focus:ring-blue-500">
+                <input type="email" placeholder="Work Email" required class="w-full p-4 bg-slate-50 border rounded-2xl outline-none focus:ring-2 focus:ring-blue-500">
+                <input type="password" placeholder="Create Password" required class="w-full p-4 bg-slate-50 border rounded-2xl outline-none focus:ring-2 focus:ring-blue-500">
+                <button type="submit" class="w-full gradient-bg text-white py-5 rounded-2xl font-black text-lg">Create My Account</button>
+            </form>
+            <p class="mt-6 text-center text-xs text-slate-400">By signing up, you agree to our Terms and Privacy Policy.</p>
+        </div>
+    </div>
+
+    <script>
+        function toggleSignup() {
+            const modal = document.getElementById('signup-modal');
+            modal.classList.toggle('hidden');
+        }
+
+        function handleSignup(e) {
+            e.preventDefault();
+            alert('Welcome! Your AI workspace is being provisioned. We will contact you at your email or anvisha693@gmail.com for setup.');
+            toggleSignup();
+        }
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
